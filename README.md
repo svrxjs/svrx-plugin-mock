@@ -42,7 +42,7 @@ get('/blog/:id').to.mock({
 get('/user/:id').to.mock('@paragraph');
 ```
 
-Vist `/blog/1` , you will see output as below
+Visit `/blog/1` , and you will see output as below
 
 ```js
 {
