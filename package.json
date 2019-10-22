@@ -1,6 +1,6 @@
 {
   "name": "svrx-plugin-mock",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The svrx plugin for mock",
   "main": "index.js",
   "keywords": [

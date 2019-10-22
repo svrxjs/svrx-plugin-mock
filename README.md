@@ -54,9 +54,10 @@ Visit `/blog/1` , and you will see output as below
 }
 ```
 
-> Thanks for [svrx routing dsl], the route is hot-reloading
+Thanks for [routing dsl](https://docs.svrx.io/zh/guide/route.html), **mocking rule is also hot-reloading**.
+If you update the rules, there is no need to restart the server-x.
 
-- see [official mock.js reference](http://mockjs.com/examples.html) for more details
+see [official mock.js reference](http://mockjs.com/examples.html) for more details
 
 ## Options
 
