@@ -15,14 +15,7 @@ Zero config, Provide us with a convenient way to mock data
 ### Via CLI
 
 ```bash
-svrx -p mock
-```
-
-or
-
-```bash
-
-svrx --mock
+svrx -p mock --route route.js
 ```
 
 ### Via API
