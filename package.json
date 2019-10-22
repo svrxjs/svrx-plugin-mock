@@ -1,0 +1,39 @@
+{
+  "name": "svrx-plugin-mock",
+  "version": "0.0.1",
+  "description": "The svrx plugin for mock",
+  "main": "index.js",
+  "keywords": [
+    "svrx",
+    "svrx-plugin",
+    "mock"
+  ],
+  "engines": {
+    "svrx": "^1.0.0"
+  },
+  "author": "leeluolee <87399126@163.com>",
+  "scripts": {
+    "lint": "eslint \"**/*.js\"",
+    "lint:fix": "eslint \"**/*.js\" --fix"
+  },
+  "dependencies": {
+    "mockjs": "^1.0.0"
+  },
+  "devDependencies": {
+    "@svrx/eslint-config": "^1.0.0",
+    "eslint": "^6.2.0",
+    "husky": "^3.0.4",
+    "lint-staged": "^9.2.3",
+    "mocha": "^6.2.0",
+    "requireg": "^0.2.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  },
+  "license": "MIT"
+}
